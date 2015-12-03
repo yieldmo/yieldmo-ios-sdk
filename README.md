@@ -6,7 +6,7 @@ Thanks for taking a look at Yieldmo! We take pride in having easy-to-use, unobtr
 
 The Yieldmo SDK is distributed as a framework that you can include in your application.
 
-The current version of the SDK is 2.3.3
+Download the latest release from [here](https://github.com/yieldmo/yieldmo-ios-sdk/releases).
 
 ## Integrate
 
