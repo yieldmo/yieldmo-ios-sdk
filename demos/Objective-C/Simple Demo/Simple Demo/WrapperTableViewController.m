@@ -18,9 +18,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Init YM Views
-//    [[YM sharedYM] fetchNativePlacements:@[[[YMNativePlacement alloc] initWithPlacementId:kDemoDominoFormat4AdPlacementId width:self.view.bounds.size.width]] delegate:self];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,3 +1,6 @@
+## Version 2.3.5 (Dec 15, 2015)
+- Fix for a crash in Config call
+
 ## Version 2.3.4 (Dec 2, 2015)
 - Minor bug fix for "No internet connection"
 
