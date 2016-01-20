@@ -18,5 +18,5 @@ Please view the [changelog](https://github.com/yieldmo/yieldmo-ios-sdk/blob/mast
 
 ## Requirements
 
-iOS 7.0 and up
+iOS 8.0 and up
 

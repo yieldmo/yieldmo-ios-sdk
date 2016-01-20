@@ -1,3 +1,8 @@
+## Version 2.3.6 (Jan 20, 2016)
+- Fixed a crash in Template download
+- Removed several warning messages in the console
+- Other bug fixes to improve stability
+
 ## Version 2.3.5 (Dec 15, 2015)
 - Fix for a crash in Config call
 
