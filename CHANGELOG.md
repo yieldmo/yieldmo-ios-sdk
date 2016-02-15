@@ -1,3 +1,13 @@
+## Version 3.0.0 (Feb 15, 2016)
+- Brand new formats (Feature, Wrapper, etc.)
+- Style customization
+- Updated interface
+- AdChoices support
+- Cocoapods support
+- New features to test formats in-app
+- Several bug fixes and improvements
+- 40% Smaller
+
 ## Version 2.3.6 (Jan 20, 2016)
 - Fixed a crash in Template download
 - Removed several warning messages in the console
