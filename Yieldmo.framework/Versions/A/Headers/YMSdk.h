@@ -5,7 +5,6 @@
 //  Copyright © 2016 Yieldmo. All rights reserved.
 //
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 
 @protocol YMSdkDelegate;
 

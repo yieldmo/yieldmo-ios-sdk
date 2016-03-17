@@ -1,3 +1,6 @@
+## Version 3.0.1 (Mar 17, 2016)
+- Crash fix
+
 ## Version 3.0.0 (Feb 15, 2016)
 - Brand new formats (Feature, Wrapper, etc.)
 - Style customization
