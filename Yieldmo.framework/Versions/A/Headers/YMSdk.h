@@ -62,8 +62,5 @@ typedef NS_OPTIONS(NSUInteger, YMSdkOptions) {
  */
 + (void) addTestDevices:(NSArray<NSString *>*)deviceIdentifiers;
 
-+ (void) switchToStaging;
-+ (void) switchToProduction;
-
 
 @end

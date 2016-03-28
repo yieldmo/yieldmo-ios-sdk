@@ -16,4 +16,10 @@
  * @brief The placement format class name
  */
 @property (nonatomic,readonly) NSString * format;
+
+/*!
+ * @brief Purges ad content and its subviews (useful before refreshing a placement on a page)
+ */
+- (void) purge;
+
 @end

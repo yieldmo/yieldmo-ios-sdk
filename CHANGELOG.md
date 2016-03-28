@@ -1,7 +1,14 @@
+## Version 3.1 (Mar 28, 2016)
+- New formats: Video & Carousel
+- Bitcode enabled
+- Several bug fixes
+- Improvements for Wrapper
+- Moved bundle inside framework
+
 ## Version 3.0.1 (Mar 17, 2016)
 - Crash fix
 
-## Version 3.0.0 (Feb 15, 2016)
+## Version 3.0 (Feb 15, 2016)
 - Brand new formats (Feature, Wrapper, etc.)
 - Style customization
 - Updated interface

@@ -28,4 +28,5 @@
  * @brief Called when a Yieldmo ad was tapped and resulted in the user leaving your app.
  */
 - (void) adDidExitApp;
+
 @end

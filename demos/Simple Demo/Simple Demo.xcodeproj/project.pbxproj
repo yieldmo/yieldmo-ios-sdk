@@ -12,7 +12,6 @@
 		143AF5CA1C725802007C2B1B /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF5C91C725802007C2B1B /* AVKit.framework */; };
 		143AF5CC1C725807007C2B1B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF5CB1C725807007C2B1B /* CoreMedia.framework */; };
 		143AF5CE1C72580E007C2B1B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF5CD1C72580E007C2B1B /* MobileCoreServices.framework */; };
-		143AF5D51C725A8C007C2B1B /* Yieldmo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 143AF5D31C725A8C007C2B1B /* Yieldmo.bundle */; };
 		143AF5D61C725A8C007C2B1B /* Yieldmo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF5D41C725A8C007C2B1B /* Yieldmo.framework */; };
 		149862721BC45C6F00129748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 149862711BC45C6F00129748 /* main.m */; };
 		149862751BC45C6F00129748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 149862741BC45C6F00129748 /* AppDelegate.m */; };
@@ -32,7 +31,6 @@
 		143AF5C91C725802007C2B1B /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		143AF5CB1C725807007C2B1B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		143AF5CD1C72580E007C2B1B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		143AF5D31C725A8C007C2B1B /* Yieldmo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Yieldmo.bundle; path = ../../../Yieldmo.bundle; sourceTree = "<group>"; };
 		143AF5D41C725A8C007C2B1B /* Yieldmo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yieldmo.framework; path = ../../../Yieldmo.framework; sourceTree = "<group>"; };
 		1498626D1BC45C6F00129748 /* Simple Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		149862711BC45C6F00129748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 		1498628E1BC45E2600129748 /* Yieldmo */ = {
 			isa = PBXGroup;
 			children = (
-				143AF5D31C725A8C007C2B1B /* Yieldmo.bundle */,
 				143AF5D41C725A8C007C2B1B /* Yieldmo.framework */,
 			);
 			name = Yieldmo;
@@ -206,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				149862831BC45C6F00129748 /* LaunchScreen.storyboard in Resources */,
-				143AF5D51C725A8C007C2B1B /* Yieldmo.bundle in Resources */,
 				149862801BC45C6F00129748 /* Assets.xcassets in Resources */,
 				1498627E1BC45C6F00129748 /* Main.storyboard in Resources */,
 			);
