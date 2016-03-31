@@ -1,9 +1,5 @@
-## Version 3.1 (Mar 28, 2016)
-- New formats: Video & Carousel
-- Bitcode enabled
-- Several bug fixes
-- Improvements for Wrapper
-- Moved bundle inside framework
+## Version 3.0.2 (Mar 31, 2016)
+- Fixed a crash on 8.x devices
 
 ## Version 3.0.1 (Mar 17, 2016)
 - Crash fix

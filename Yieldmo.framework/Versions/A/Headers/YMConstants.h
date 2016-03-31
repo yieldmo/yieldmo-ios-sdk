@@ -2,7 +2,7 @@
 //  YMConstants.h
 //  Yieldmo
 //
-//  Copyright © 2016 Yieldmo. All rights reserved.
+//  Copyright © 2015 Yieldmo. All rights reserved.
 //
 
 // Yieldmo Demo App ID
@@ -27,8 +27,3 @@ extern NSString * const kDemoPlacement_Pull;
 extern NSString * const kDemoPlacement_Feature;
 extern NSString * const kDemoPlacement_Ticker;
 extern NSString * const kDemoPlacement_Wrapper;
-
-extern NSString * const kDemoPlacement_Video;
-extern NSString * const kDemoPlacement_Carousel;
-extern NSString * const kDemoPlacement_Mainstage;
-
