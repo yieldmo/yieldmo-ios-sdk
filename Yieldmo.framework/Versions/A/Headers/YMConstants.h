@@ -26,4 +26,3 @@ extern NSString * const kDemoPlacement_Window;
 extern NSString * const kDemoPlacement_Pull;
 extern NSString * const kDemoPlacement_Feature;
 extern NSString * const kDemoPlacement_Ticker;
-extern NSString * const kDemoPlacement_Wrapper;

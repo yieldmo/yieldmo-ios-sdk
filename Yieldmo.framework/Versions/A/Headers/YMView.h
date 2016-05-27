@@ -10,10 +10,10 @@
 /*!
  * @brief The placement identifier
  */
-@property (nonatomic,readonly) NSString * placementId;
+@property (nonatomic, readonly) NSString * placementId;
 
 /*!
  * @brief The placement format class name
  */
-@property (nonatomic,readonly) NSString * format;
+@property (nonatomic, readonly) NSString * format;
 @end

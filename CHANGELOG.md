@@ -1,3 +1,7 @@
+## Version 3.0.3 (May 27, 2016)
+- Stability improvements
+- Bug fixes
+
 ## Version 3.0.2 (Mar 31, 2016)
 - Fixed a crash on 8.x devices
 

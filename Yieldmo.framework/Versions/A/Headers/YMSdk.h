@@ -8,13 +8,14 @@
 
 @protocol YMSdkDelegate;
 
-typedef NS_OPTIONS(NSUInteger, YMSdkOptions) {
+typedef NS_OPTIONS (NSUInteger, YMSdkOptions) {
     YMSdkOptions_Default = 0,
     YMSdkOptions_Logging = 1 << 0,
     YMSdkOptions_UseExternalBrowser = 1 << 1,
     YMSdkOptions_LocationEnabled = 1 << 2,
     YMSdkOptions_UsePlacementTracker = 1 << 3,
     YMSdkOptions_UseIntelliQA = 1 << 4,
+    YMSdkOptions_PlacementDiagnostics = 1 << 5,
 };
 
 @interface YMSdk : NSObject
@@ -29,14 +30,14 @@ typedef NS_OPTIONS(NSUInteger, YMSdkOptions) {
  * @brief Get the SDK's version number. This is of the format Major-Version.Minor-Version.Patch-Version (Build-Number)
  * @return A string instance having the version number.
  */
-+ (NSString*) version;
++ (NSString *) version;
 
 /*!
  * @brief Initializes the shared YMSdk singleton. You would normally call this method in your App's Delegate, and call it before invoking any Yieldmo SDK methods.
  * @param appID Your Yieldmo app ID that your account manager should have provided you with.
  * @param options A bitwise-OR of all the available YMSdkOptions.
  */
-- (void) startWithAppID:(NSString *)appID features:(YMSdkOptions)options;
+- (void) startWithAppID: (NSString *) appID features: (YMSdkOptions) options;
 
 /*!
  * @brief Fetches placement views and returns them to the @p YMViewDelegate object
@@ -45,9 +46,9 @@ typedef NS_OPTIONS(NSUInteger, YMSdkOptions) {
  * @param parentScrollView A UIScrollView (or any Views that inherit from it), which will have the YMView as either a direct subView, or a subView of one of its subViews. Pass nil if your current view doesn't support scrolling.
  * @return A dictionary of rendered placement views keyed by placement id
  */
-- (void) fetchNativePlacements:(NSArray<NSString *> *)placementIds
-                      delegate:(id<YMSdkDelegate>)delegate
-                  inScrollView:(__kindof UIScrollView*)parentScrollView;
+- (void) fetchNativePlacements: (NSArray<NSString *> *) placementIds
+                      delegate: (id<YMSdkDelegate>) delegate
+                  inScrollView: (__kindof UIScrollView *) parentScrollView;
 
 
 /*!
@@ -58,12 +59,13 @@ typedef NS_OPTIONS(NSUInteger, YMSdkOptions) {
 
 /*!
  * @brief QA helper method that adds test devices for IntelliQA. Read more about IntelliQA here: https://github.com/yieldmo/yieldmo-ios-sdk/wiki/iOS-QA-Guide#intelliqa
- * @param deviceIdentifiers An NSArray of NSString device IDs. You can get a device's device ID by executing [[[UIDevice currentDevice] identifierForVendor] UUIDString]
+ * @param deviceIdentifiers An NSArray of NSString device IDs. You can get a device's device ID by executing [YMSdk currentDeviceID]
  */
-+ (void) addTestDevices:(NSArray<NSString *>*)deviceIdentifiers;
++ (void) addTestDevices: (NSArray<NSString *> *) deviceIdentifiers;
 
-+ (void) switchToStaging;
-+ (void) switchToProduction;
-
+/*!
+ * @brief QA helper method that adds gets the current device's identifier.
+ */
++ (NSString *) currentDeviceID;
 
 @end
