@@ -18,8 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[YMSdk sharedYM] startWithAppID:kDemoAppId
-                            features:YMSdkOptions_Default | YMSdkOptions_Logging];
     
     return YES;
 }

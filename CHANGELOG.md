@@ -1,3 +1,11 @@
+## Version 4.0.0 (September 28, 2016)
+Yieldmo iOS SDK v4.0.0
+
+* Yieldmo SDK built atop the MRAID 2.0 spec
+* Support for upper funnel, interactive Yieldmo formats
+* Revamped API for easier integration
+* DFP Adapter support for serving through DFP
+
 ## Version 3.0.3 (May 27, 2016)
 - Stability improvements
 - Bug fixes

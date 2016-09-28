@@ -7,23 +7,24 @@
 //
 
 #import "AboutViewController.h"
-#import <Yieldmo/Yieldmo.h>
+@import Yieldmo;
+@import AdSupport;
 
-@interface AboutViewController ()
+@interface AboutViewController () <UITextFieldDelegate>
 
-@property (weak, nonatomic) IBOutlet UILabel *versionLabel;
+@property (weak, nonatomic) IBOutlet UILabel * sdkVersionLabel;
 
 @end
 
 @implementation AboutViewController
 
-- (void)viewDidLoad {
+- (void) viewDidLoad {
     [super viewDidLoad];
-    
-    self.versionLabel.text = [NSString stringWithFormat:@"SDK v%@", [YMSdk version]];
+
+    self.sdkVersionLabel.text = [NSString stringWithFormat: @"v %@", [Yieldmo version]];
 }
 
-- (void)didReceiveMemoryWarning {
+- (void) didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		143AF5C61C7257F6007C2B1B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF5C51C7257F6007C2B1B /* AVFoundation.framework */; };
-		143AF5C81C7257FB007C2B1B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF5C71C7257FB007C2B1B /* ImageIO.framework */; };
-		143AF5CA1C725802007C2B1B /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF5C91C725802007C2B1B /* AVKit.framework */; };
-		143AF5CC1C725807007C2B1B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF5CB1C725807007C2B1B /* CoreMedia.framework */; };
-		143AF5CE1C72580E007C2B1B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF5CD1C72580E007C2B1B /* MobileCoreServices.framework */; };
 		143AF5D61C725A8C007C2B1B /* Yieldmo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AF5D41C725A8C007C2B1B /* Yieldmo.framework */; };
 		149862721BC45C6F00129748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 149862711BC45C6F00129748 /* main.m */; };
 		149862751BC45C6F00129748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 149862741BC45C6F00129748 /* AppDelegate.m */; };
@@ -21,9 +16,7 @@
 		1498628D1BC45D6100129748 /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498628C1BC45D6100129748 /* SimpleTableViewController.m */; };
 		149862941BC45E7600129748 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149862931BC45E7600129748 /* StoreKit.framework */; };
 		149862961BC45E7F00129748 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149862951BC45E7F00129748 /* AdSupport.framework */; };
-		149862981BC45E8700129748 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149862971BC45E8700129748 /* CoreLocation.framework */; };
 		149862A31BC46EE600129748 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149862A21BC46EE600129748 /* AboutViewController.m */; };
-		14AB0E6D1CAA16110049F260 /* Yieldmo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14AB0E6C1CAA16110049F260 /* Yieldmo.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +41,6 @@
 		149862971BC45E8700129748 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		149862A11BC46EE600129748 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		149862A21BC46EE600129748 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		14AB0E6C1CAA16110049F260 /* Yieldmo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Yieldmo.bundle; path = ../../../Yieldmo.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				143AF5CE1C72580E007C2B1B /* MobileCoreServices.framework in Frameworks */,
-				143AF5CC1C725807007C2B1B /* CoreMedia.framework in Frameworks */,
-				143AF5CA1C725802007C2B1B /* AVKit.framework in Frameworks */,
-				143AF5C81C7257FB007C2B1B /* ImageIO.framework in Frameworks */,
-				143AF5C61C7257F6007C2B1B /* AVFoundation.framework in Frameworks */,
 				143AF5D61C725A8C007C2B1B /* Yieldmo.framework in Frameworks */,
-				149862981BC45E8700129748 /* CoreLocation.framework in Frameworks */,
 				149862961BC45E7F00129748 /* AdSupport.framework in Frameworks */,
 				149862941BC45E7600129748 /* StoreKit.framework in Frameworks */,
 			);
@@ -126,7 +112,6 @@
 		1498628E1BC45E2600129748 /* Yieldmo */ = {
 			isa = PBXGroup;
 			children = (
-				14AB0E6C1CAA16110049F260 /* Yieldmo.bundle */,
 				143AF5D41C725A8C007C2B1B /* Yieldmo.framework */,
 			);
 			name = Yieldmo;
@@ -179,6 +164,7 @@
 				TargetAttributes = {
 					1498626C1BC45C6F00129748 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = HJEVPA356N;
 					};
 				};
 			};
@@ -206,7 +192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				149862831BC45C6F00129748 /* LaunchScreen.storyboard in Resources */,
-				14AB0E6D1CAA16110049F260 /* Yieldmo.bundle in Resources */,
 				149862801BC45C6F00129748 /* Assets.xcassets in Resources */,
 				1498627E1BC45C6F00129748 /* Main.storyboard in Resources */,
 			);
@@ -265,9 +250,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = ../../;
@@ -309,9 +292,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = ../../;
@@ -334,11 +315,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = "Simple Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yieldmo.Simple-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,11 +330,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = "Simple Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yieldmo.Simple-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
