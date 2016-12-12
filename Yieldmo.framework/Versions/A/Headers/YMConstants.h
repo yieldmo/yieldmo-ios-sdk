@@ -38,3 +38,5 @@ extern NSString * const kDemoPlacement_Map;
 extern NSString * const kDemoPlacement_WindowPlay;
 extern NSString * const kDemoPlacement_HyperPlay;
 extern NSString * const kDemoPlacement_Mainstage;
+extern NSString * const kDemoPlacement_Switch;
+extern NSString * const kDemoPlacement_Elevator;
