@@ -5,34 +5,6 @@ v4.1.0
 * Magical placement centering within DFP containers
 * Sending additional internal metrics to make our servers be enlightened individuals
 
-## Version 4.1.0 (December 12, 2016)
-v4.1.0
-
-* Fully ATS compliant SDK
-* Magical placement centering within DFP containers
-* Sending additional internal metrics to make our servers be enlightened individuals
-
-## Version 4.1.0 (December 12, 2016)
-v4.1.0
-
-* Fully ATS compliant SDK
-* Magical placement centering within DFP containers
-* Sending additional internal metrics to make our servers be enlightened individuals
-
-## Version 4.1.0 (December 12, 2016)
-v4.1.0
-
-* Fully ATS compliant SDK
-* Magical placement centering within DFP containers
-* Sending additional internal metrics to make our servers be enlightened individuals
-
-## Version 4.1.0 (December 12, 2016)
-v4.1.0
-
-* Fully ATS compliant SDK
-* Magical placement centering within DFP containers
-* Sending additional internal metrics to make our servers be enlightened individuals
-
 ## Version 4.0.0 (September 28, 2016)
 Yieldmo iOS SDK v4.0.0
 
