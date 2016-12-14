@@ -10,7 +10,7 @@ Download the latest release from [here](https://github.com/yieldmo/yieldmo-ios-s
 
 ## Integrate
 
-Integration instructions are available on the [wiki](https://github.com/yieldmo/yieldmo-sdk-beta/wiki).
+Integration instructions are available on the [wiki](https://github.com/yieldmo/yieldmo-ios-sdk/wiki).
 
 ## New in this Version
 
