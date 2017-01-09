@@ -1,3 +1,8 @@
+## Version 4.2.0 (January 09, 2017)
+v4.2.0
+
+* MPS support for Yieldmo iOS SDK!
+
 ## Version 4.1.0 (December 12, 2016)
 v4.1.0
 

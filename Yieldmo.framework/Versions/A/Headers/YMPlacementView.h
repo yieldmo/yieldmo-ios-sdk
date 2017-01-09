@@ -65,7 +65,7 @@
  * Defines the region within which a placement animates.
  * This frame should not include regions that are occuluded by status bars, navigation bars, or other UI elements.  If this method is not implemented, we assume the ad is visible within the entire screen.
  *
- *  @param placementView the view for which the region is visible. 
+ *  @param placementView the view for which the region is visible.
  *
  *  @return the frame that will contain the placement and controls its animation (for example, a UIScrollView's frame).
  */
@@ -96,7 +96,18 @@
  *
  *  @return A UIView containing a Yieldmo ad
  */
-- (nonnull YMPlacementView *) initWithFrame: (CGRect) frame withPlacementID: (nullable NSString *) placementID;
+- (nonnull YMPlacementView *) initWithFrame: (CGRect) frame withPlacementID: (nonnull NSString *) placementID;
+
+/**
+ *  API for sending an additional partner ID when initializing a placement.  Do not use this method unless instructed by your Yieldmo account manager.  Instead, use `initWithFrame withPlacementID`.
+ *
+ *  @param frame       The initial frame for the view
+ *  @param placementID A unique identifier for a placement.  Ask your Yieldmo account manager for appropriate placement id for production.  For testing, you can use a demo placement ID found in YMConstants.h
+ *  @param mediaPartnerID A unique identifier for media partner sales.  Ask your Yieldmo account manager for appropriate placement id for production.  For testing, you can use a demo placement ID found in YMConstants.h
+ *
+ *  @return A UIView containing a Yieldmo ad
+ */
+- (nonnull YMPlacementView *) initWithFrame: (CGRect) frame withPlacementID: (nonnull NSString *) placementID withMediaPartnerID: (nullable NSString *) mediaPartnerID;
 
 /**
  *  A delegate that will receive updates about ad lifecycle events
