@@ -2,6 +2,7 @@
 v4.2.1
 
 * minor reporting changes
+
 ## Version 4.2.0 (January 09, 2017)
 v4.2.0
 
