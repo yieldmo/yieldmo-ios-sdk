@@ -1,8 +1,12 @@
+## Version 4.2.2 (May 04, 2017)
+v4.2.2
+
+* Increase performance of web views
+* Fix WebKit related video configuration bug
 ## Version 4.2.1 (January 09, 2017)
 v4.2.1
 
 * minor reporting changes
-
 ## Version 4.2.0 (January 09, 2017)
 v4.2.0
 
