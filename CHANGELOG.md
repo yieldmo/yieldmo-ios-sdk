@@ -1,3 +1,8 @@
+## Version 4.2.3 (May 17, 2017)
+v4.2.3
+
+* Fixing Xcode build issues.
+
 ## Version 4.2.2 (May 04, 2017)
 v4.2.2
 
