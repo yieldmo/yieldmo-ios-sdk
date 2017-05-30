@@ -1,3 +1,8 @@
+## Version 4.2.4 (May 30, 2017)
+v4.2.4
+
+* Reporting changes
+
 ## Version 4.2.3 (May 17, 2017)
 v4.2.3
 
