@@ -1,3 +1,8 @@
+## Version 4.2.5 (Oct 05, 2017)
+v4.2.5
+
+* Fixing iOS 11 and Xcode 9 build issues
+
 ## Version 4.2.4 (May 30, 2017)
 v4.2.4
 

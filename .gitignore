@@ -1,4 +1,7 @@
+.DS_Store
 demos/Objective-C/Simple Demo/Simple Demo.xcodeproj/xcuserdata/*
 demos/Objective-C/Simple Demo/Simple Demo.xcodeproj/project.xcworkspace/xcuserdata/*
 demos/Swift/Simple Demo/Simple Demo.xcodeproj/xcuserdata/*
 demos/Swift/Simple Demo/Simple Demo.xcodeproj/project.xcworkspace/xcuserdata/*
+demos/Simple Demo/Simple Demo.xcodeproj/xcuserdata/*
+demos/Simple Demo/Simple Demo.xcodeproj/project.xcworkspace/xcuserdata/*
